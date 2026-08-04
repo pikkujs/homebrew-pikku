@@ -1,14 +1,14 @@
 cask "pikku" do
-  version "0.12.96"
+  version "0.12.99"
 
   on_arm do
-    url "https://github.com/pikkujs/pikku/releases/download/%40pikku%2Fcli%400.12.96/pikku-darwin-arm64"
-    sha256 "f482dd7df65804be3e2943a179a3029162f56f47a965d111a6fe5cfaa668cc2f"
+    url "https://github.com/pikkujs/pikku/releases/download/%40pikku%2Fcli%400.12.99/pikku-darwin-arm64"
+    sha256 "d0ff1a06ac61a9c34377ba27c3f9f2313812ace0fe8d79618081be8ab0b1142c"
     binary "pikku-darwin-arm64", target: "pikku"
   end
   on_intel do
-    url "https://github.com/pikkujs/pikku/releases/download/%40pikku%2Fcli%400.12.96/pikku-darwin-x64"
-    sha256 "2fa2110f3db1471b0de5ae84fc0bff1934c65f693ccf0fe3efe018b2fac2083a"
+    url "https://github.com/pikkujs/pikku/releases/download/%40pikku%2Fcli%400.12.99/pikku-darwin-x64"
+    sha256 "528ad81b9cf4c7aaffe96567fe14c9af480068f0a2044c8a12390d490c4c5dd8"
     binary "pikku-darwin-x64", target: "pikku"
   end
 
