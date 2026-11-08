@@ -1,9 +1,9 @@
 cask "pikku" do
-  version "0.12.205"
+  version "0.12.206"
 
   on_arm do
-    url "https://github.com/pikkujs/pikku/releases/download/%40pikku%2Fcli%400.12.205/pikku-darwin-arm64.tar.gz"
-    sha256 "668c62c3c30579b3005ace78bc79ba6c519cb40206b7e481142dc3479db22d24"
+    url "https://github.com/pikkujs/pikku/releases/download/%40pikku%2Fcli%400.12.206/pikku-darwin-arm64.tar.gz"
+    sha256 "286381889d2ed48b9ee9b8a5ea8461db848ced2eba5f9e4a002ae321035b047b"
   end
 
   binary "pikku"
